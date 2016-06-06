@@ -136,11 +136,13 @@ form input {
   margin: 1rem auto;
   width: 70%;
   padding: 0.5rem;
+  border: 3px solid green;
+  border-radius: 5px;
 }
 
 input:valid {
-  border: 3px solid green;
-  border-radius: 5px;
+  border-color: green;
+  transition-duration: 0.5s;
 }
 
 input:invalid {
@@ -149,4 +151,5 @@ input:invalid {
 
 input:focus {
   border-color: yellow;
+  transition-duration: 0.2s;
 }
