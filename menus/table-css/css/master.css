@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+  /*border: 1px solid #000;*/
+}
+
+section {
+  padding: 2rem;
+}
+
+section table, section div {
+  margin: 0 auto;
+}
+
+/* =section1 */
+
+#tab-nav {
+  width: 180px;
+  border-collapse: collapse;
+}
+
+#tab-nav td {
+  border-bottom: 2px solid #460016;
+  background-color: #ffdfea;
+  color: #460016;
+}
+
+#tab-nav a:link, #tab-nav a:visited {
+  display: block;
+  margin: 0.4em 0 0.4em 1em;
+  color: #460016;
+  background-color: transparent;
+  font-size: 90%;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* =section2 */
+
+.list-nav {
+  width: 200px;
+}
+
+.list-nav ul {
+  list-style: none;
+}
+
+.list-nav li {
+  border-bottom: 1px solid #ed9f9f;
+}
+
+.list-nav li a:link, .list-nav li a:visited {
+  font-size: 90%;
+  display: block;
+  padding: 0.4em 0 0.4em 0.5em;
+  border-left: 12px solid #711515;
+  border-right: 1px solid #711515;
+  background-color: #b51032;
+  color: #fff;
+  text-decoration: none;
+}
+
+.list-nav li a:hover {
+  background-color: #711515;
+  color: #fff;
+}
+
+/* =section3 */
+.level-nav {
+  width: 200px;
+}
+
+.level-nav ul {
+  list-style: none;
+}
+
+.level-nav li {
+  border-bottom: 1px solid #ed9f9f;
+}
+
+.level-nav li a:link, .level-nav li a:visited {
+  font-size: 90%;
+  display: block;
+  padding: 0.4em 0 0.4em 0.5em;
+  border-left: 12px solid #711515;
+  border-right: 1px solid #711515;
+  background-color: #b51032;
+  color: #fff;
+  text-decoration: none;
+}
+
+.level-nav li a:hover {
+  background-color: #711515;
+  color: #fff;
+}
+
+.level-nav ul ul {
+  margin-left: 12px;
+}
+
+.level-nav ul ul li {
+  border-bottom: 1px solid #711515;
+}
+
+.level-nav ul ul a:link, .level-nav ul ul a:visited {
+  background-color: #ed9f9f;
+  color: #711515;
+}
+
+.level-nav ul ul a:hover {
+  background-color: #711515;
+  color: #fff;
+}
+
+/* =section4 */
+.horiz-nav {
+  font-size: 90%;
+  width: 500px;
+}
+
+.horiz-nav ul {
+  list-style: none;
+  padding-top: 1em;
+}
+
+.horiz-nav li {
+  display: inline;
+}
+
+.horiz-nav a:link, .horiz-nav a:visited {
+  padding: 0.4em 1em 0.4em 1em;
+  color: #fff;
+  background-color: #b51032;
+  text-decoration: none;
+  border: 1px solid #711515;
+}
+
+.horiz-nav a:hover {
+  background-color: #711515;
+  color: #fff;
+}
